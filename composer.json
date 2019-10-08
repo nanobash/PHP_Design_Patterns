@@ -10,7 +10,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "ProjectX\\": "src/"
+            "ProjectX\\": [
+                "src/",
+                "lib/"
+            ]
         }
     },
     "require": {}
