@@ -1,0 +1,12 @@
+{
+    "name": "nanobash/php_design_patterns",
+    "description": "Examples of PHP Design Patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tornike Nanobashvili",
+            "email": "tnanobashvili92@gmail.com"
+        }
+    ],
+    "require": {}
+}
