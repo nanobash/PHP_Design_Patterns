@@ -8,5 +8,10 @@
             "email": "tnanobashvili92@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "ProjectX\\": "src/"
+        }
+    },
     "require": {}
 }
