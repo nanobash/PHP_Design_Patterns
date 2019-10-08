@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ProjectX\Factory\Figure;
+namespace ProjectX\Base\Factory\Figure;
 
 use ReflectionClass;
 use ReflectionException;
 
-class Circle implements FigureInterface
+class Square implements FigureInterface
 {
     protected $dimension;
 
@@ -41,7 +41,7 @@ class Circle implements FigureInterface
      */
     public function getArea(): float
     {
-        return $this->dimension ** 2 * pi();
+        return $this->dimension ** 2;
     }
 
     /**

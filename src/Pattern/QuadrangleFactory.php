@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace ProjectX\Pattern;
 
 use Exception;
-use ProjectX\Factory\Figure\Circle;
-use ProjectX\Factory\Figure\FigureInterface;
-use ProjectX\Factory\Figure\Square;
+use ProjectX\Base\Factory\Figure\Circle;
+use ProjectX\Base\Factory\Figure\FigureInterface;
+use ProjectX\Base\Factory\Figure\Square;
 
 class QuadrangleFactory implements QuadrangleFactoryInterface
 {

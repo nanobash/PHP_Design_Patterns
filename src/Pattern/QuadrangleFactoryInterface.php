@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ProjectX\Pattern;
 
-use ProjectX\Factory\Figure\FigureInterface;
+use ProjectX\Base\Factory\Figure\FigureInterface;
 
 interface QuadrangleFactoryInterface
 {

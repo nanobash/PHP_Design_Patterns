@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProjectX\Factory\Figure;
+namespace ProjectX\Base\Factory\Figure;
 
 interface FigureInterface
 {
