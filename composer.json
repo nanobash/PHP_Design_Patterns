@@ -16,5 +16,7 @@
             ]
         }
     },
-    "require": {}
+    "require": {
+        "symfony/console": "^4.3"
+    }
 }
